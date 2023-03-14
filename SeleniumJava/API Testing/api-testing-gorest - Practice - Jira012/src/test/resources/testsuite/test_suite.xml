@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite">
+    <test name="Jira012">
+        <classes>
+            <class name="in.co.gorest.tests.UserTest">
+                <methods>
+                    <include name="createNewUserSuccessfully"></include>
+                    <include name="getUsersSuccessfully"></include>
+                    <include name="getUserDetailsSuccessfully"></include>
+                    <include name="updateUserDetailsSuccessfully"></include>
+                    <include name="verifyUpdateUserJsonSchema"></include>
+                    <include name="deleteUserSuccessfully"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test-suite(failed)" verbose="0">
+    <classes>
+      <class name="com.nashtech.tms.tests.SearchProjectTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="searchProjectWithNameLocationTypeSuccessfully"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethodBaseTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.nashtech.tms.tests.SearchProjectTest -->
+      <class name="com.nashtech.tms.tests.LoginTest">
+        <methods>
+          <include name="loginUnsuccessfullyWithEmptyUsernamePassword"/>
+          <include name="loginUnsuccessfullyWithEmptyPassword"/>
+          <include name="loginUnsuccessfullyWithInvalidAccount"/>
+          <include name="loginUnsuccessfullyWithEmptyUsername"/>
+          <include name="loginSuccessfullyWithValidAccount"/>
+          <include name="beforeMethodBaseTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.nashtech.tms.tests.LoginTest -->
+      <class name="com.nashtech.tms.tests.CreateProjectTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethodBaseTest"/>
+          <include name="beforeSuite"/>
+          <include name="createProjectWithAllFieldsSuccessfully"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.nashtech.tms.tests.CreateProjectTest -->
+    </classes>
+  </test> <!-- test-suite(failed) -->
+</suite> <!-- Failed suite [suite] -->

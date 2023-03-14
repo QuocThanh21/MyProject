@@ -1,0 +1,206 @@
+[INFO ] 2022-07-09 19:20:18.033 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 19:20:22.854 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 19:20:27.631 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 19:20:27.785 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 19:20:27.939 [main] Log - Click Login button
+[INFO ] 2022-07-09 19:20:28.025 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 19:20:29.121 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 19:20:29.817 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 19:20:59.856 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 19:25:03.965 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-07-09 19:25:03.988 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 19:25:07.340 [main] Log - loginSuccessfullyWithValidAccount test is starting.
+[INFO ] 2022-07-09 19:25:07.596 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 19:25:13.842 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 19:25:14.025 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 19:25:14.182 [main] Log - Click Login button
+[INFO ] 2022-07-09 19:25:14.293 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 19:25:15.396 [main] Log - loginSuccessfullyWithValidAccount test is succeed.
+[INFO ] 2022-07-09 19:25:15.403 [main] Log - loginUnsuccessfullyWithInvalidAccount test is starting.
+[INFO ] 2022-07-09 19:25:15.403 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 19:25:16.635 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 19:25:47.542 [main] Log - loginUnsuccessfullyWithInvalidAccount test is skipped.
+[INFO ] 2022-07-09 19:25:47.543 [main] Log - loginUnsuccessfullyWithInvalidAccount test is starting.
+[INFO ] 2022-07-09 19:25:47.544 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 19:25:51.807 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 19:26:21.911 [main] Log - loginUnsuccessfullyWithInvalidAccount test is failed.
+[INFO ] 2022-07-09 19:26:22.375 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 19:26:23.150 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-07-09 20:34:37.450 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-07-09 20:34:37.530 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:34:43.310 [main] Log - loginSuccessfullyWithValidAccount test is starting.
+[INFO ] 2022-07-09 20:34:43.711 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:34:51.579 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 20:34:51.797 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 20:34:52.002 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:34:52.104 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 20:34:53.241 [main] Log - loginSuccessfullyWithValidAccount test is succeed.
+[INFO ] 2022-07-09 20:34:53.247 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 20:34:54.009 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:34:55.483 [main] Log - loginUnsuccessfullyWithInvalidAccount test is starting.
+[INFO ] 2022-07-09 20:34:55.484 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:35:04.968 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 20:35:05.113 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 20:35:05.337 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:35:06.008 [main] Log - loginUnsuccessfullyWithInvalidAccount test is succeed.
+[INFO ] 2022-07-09 20:35:06.010 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 20:35:06.791 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-07-09 20:41:02.706 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-07-09 20:41:02.775 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:41:06.707 [main] Log - loginSuccessfullyWithValidAccount test is starting.
+[INFO ] 2022-07-09 20:41:06.724 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:41:11.766 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 20:41:12.018 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 20:41:12.404 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:41:12.521 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 20:41:13.643 [main] Log - loginSuccessfullyWithValidAccount test is succeed.
+[INFO ] 2022-07-09 20:41:14.032 [main] Log - loginSuccessfullyWithValidAccount test is failed.
+[INFO ] 2022-07-09 20:41:14.257 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-07-09 20:46:15.299 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:46:19.743 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:46:25.971 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 20:46:26.179 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 20:46:26.330 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:46:26.505 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 20:46:27.731 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 20:46:28.507 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:46:30.068 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:46:41.773 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 20:46:42.043 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 20:46:42.195 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:46:42.881 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 20:58:30.902 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:58:35.096 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:58:40.513 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 20:58:40.702 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 20:58:40.910 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:58:41.033 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 20:58:42.161 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 20:58:42.973 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 20:58:44.624 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 20:58:51.668 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 20:58:51.863 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 20:58:52.012 [main] Log - Click Login button
+[INFO ] 2022-07-09 20:59:22.141 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 21:06:58.854 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 21:07:03.029 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 21:08:13.394 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 21:08:13.577 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 21:08:13.979 [main] Log - Click Login button
+[INFO ] 2022-07-09 21:08:14.063 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 21:08:15.160 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 21:08:15.941 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 21:08:17.376 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 21:08:26.465 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 21:08:26.581 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 21:08:26.792 [main] Log - Click Login button
+[INFO ] 2022-07-09 21:08:57.365 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:02:34.939 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:02:39.657 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:02:52.438 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:02:52.728 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:02:52.858 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:02:52.949 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:02:54.052 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:02:54.816 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:02:56.235 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:03:04.185 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:03:04.316 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:03:04.486 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:03:05.223 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:05:39.707 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-07-09 22:05:39.750 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:05:42.595 [main] Log - loginSuccessfullyWithValidAccount test is starting.
+[INFO ] 2022-07-09 22:05:42.936 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:05:51.248 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:05:51.386 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:05:51.576 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:05:51.678 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:05:52.791 [main] Log - loginSuccessfullyWithValidAccount test is succeed.
+[INFO ] 2022-07-09 22:05:52.798 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:05:53.527 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:05:54.855 [main] Log - loginUnsuccessfullyWithInvalidAccount test is starting.
+[INFO ] 2022-07-09 22:05:54.855 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:06:07.721 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:06:07.906 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:06:08.128 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:06:08.784 [main] Log - loginUnsuccessfullyWithInvalidAccount test is succeed.
+[INFO ] 2022-07-09 22:06:08.785 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:06:09.454 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-07-09 22:15:31.037 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:15:34.406 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:15:44.013 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:15:44.206 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:15:44.425 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:15:44.512 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:15:45.599 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:15:46.238 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:15:47.594 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:15:55.149 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:15:55.261 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:15:55.368 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:15:56.040 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:17:14.914 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-07-09 22:17:14.957 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:17:17.694 [main] Log - loginSuccessfullyWithValidAccount test is starting.
+[INFO ] 2022-07-09 22:17:18.045 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:17:28.997 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:17:29.153 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:17:29.387 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:17:29.475 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:17:30.583 [main] Log - loginSuccessfullyWithValidAccount test is succeed.
+[INFO ] 2022-07-09 22:17:30.589 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:17:31.331 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:17:32.700 [main] Log - loginUnsuccessfullyWithInvalidAccount test is starting.
+[INFO ] 2022-07-09 22:17:32.701 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:17:41.174 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:17:41.294 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:17:41.427 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:17:42.104 [main] Log - loginUnsuccessfullyWithInvalidAccount test is succeed.
+[INFO ] 2022-07-09 22:17:42.105 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:17:42.800 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-07-09 22:19:33.204 [main] Log - I am in onStart method LoginTest
+[INFO ] 2022-07-09 22:19:33.260 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:19:36.952 [main] Log - loginSuccessfullyWithValidAccount test is starting.
+[INFO ] 2022-07-09 22:19:37.279 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:20:33.314 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:20:33.725 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:20:33.872 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:20:33.969 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:20:35.055 [main] Log - loginSuccessfullyWithValidAccount test is succeed.
+[INFO ] 2022-07-09 22:20:35.059 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:20:35.745 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:20:37.710 [main] Log - loginUnsuccessfullyWithInvalidAccount test is starting.
+[INFO ] 2022-07-09 22:20:37.711 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:20:46.416 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:20:46.593 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:20:46.796 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:20:47.511 [main] Log - loginUnsuccessfullyWithInvalidAccount test is succeed.
+[INFO ] 2022-07-09 22:20:47.512 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:20:48.258 [main] Log - I am in onFinish method LoginTest
+[INFO ] 2022-07-09 22:37:25.312 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:37:28.895 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:37:40.919 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:37:41.058 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:37:41.275 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:37:41.358 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:37:42.961 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:37:43.719 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:37:45.115 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:37:52.696 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:37:52.817 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:37:52.961 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:37:53.716 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:41:25.375 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:41:28.980 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:41:36.768 [main] Log - Input username: ThanhTran
+[INFO ] 2022-07-09 22:41:36.912 [main] Log - Input password: Thanh21!
+[INFO ] 2022-07-09 22:41:37.036 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:41:37.121 [main] Log - Get username after logining successfully
+[INFO ] 2022-07-09 22:41:38.279 [main] Log - Tests are ending!
+[INFO ] 2022-07-09 22:41:39.078 [main] Log - Tests is starting!
+[INFO ] 2022-07-09 22:41:40.513 [main] Log - Go to https://demoqa.com/login
+[INFO ] 2022-07-09 22:41:47.423 [main] Log - Input username: ThanhTran@
+[INFO ] 2022-07-09 22:41:47.559 [main] Log - Input password: Thanh21@
+[INFO ] 2022-07-09 22:41:47.726 [main] Log - Click Login button
+[INFO ] 2022-07-09 22:41:48.390 [main] Log - Tests are ending!

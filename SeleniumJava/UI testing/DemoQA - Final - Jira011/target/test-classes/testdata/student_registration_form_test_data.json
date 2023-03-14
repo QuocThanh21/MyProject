@@ -1,0 +1,20 @@
+{
+  "firstName": "Thanh",
+  "lastName": "Tran",
+  "userEmail": "thanh@gmail.com",
+  "gender": "Male",
+  "mobile": "0381172413",
+  "dateOfBirth": "22 January,2004",
+  "subjects": [
+    "Biology",
+    "Accounting"
+  ],
+  "hobbies": [
+    "Reading",
+    "Music"
+  ],
+  "picture": "D:\\SeleniumJava\\DemoQA\\src\\test\\resources\\testdata\\images\\avt.jpeg",
+  "currentAddress": "TP HCM",
+  "state": "NCR",
+  "city": "Noida"
+}

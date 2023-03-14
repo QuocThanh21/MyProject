@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.demoqa</groupId>
+    <artifactId>cucumber-final-jira015-demoqa</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
+<!--        Assertion library-->
+        <hamcrest.version>2.2</hamcrest.version>
+<!--        Test com.demoqa.runner -->
+        <testng.version>7.6.1</testng.version>
+<!--        Selenium -->
+        <selenium.version>4.4.0</selenium.version>
+<!--        Web driver -->
+        <webdrivermanager.version>5.3.0</webdrivermanager.version>
+<!--        Extent report -->
+        <extentreports.version>5.0.9</extentreports.version>
+        <extentreports-testng-adapter.version>1.2.2</extentreports-testng-adapter.version>
+<!--        Cucumber -->
+        <cucumber-testng.version>7.6.0</cucumber-testng.version>
+        <cucumber-java.version>7.6.0</cucumber-java.version>
+<!--        cucumber report -->
+        <extentreports-cucumber7-adapter.version>1.6.0</extentreports-cucumber7-adapter.version>
+<!--        share state between com.demoqa.steps-->
+        <cucumber-picocontainer.version>7.3.3</cucumber-picocontainer.version>
+<!--        json -->
+        <json.version>20220320</json.version>
+        <json-simple.version>1.1.1</json-simple.version>
+<!--        API -->
+        <rest-assured.version>5.1.1</rest-assured.version>
+        <slf4j-simple.version>1.7.36</slf4j-simple.version>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <env.properties>${project.basedir}/src/test/resources/configs/env/dev.properties</env.properties>
+                <test.failure.ignore>true</test.failure.ignore>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/test/resources/configs</directory>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <browser>Chrome</browser>
+                        <env.properties>${env.properties}</env.properties>
+                    </systemPropertyVariables>
+                    <includes>**/runner/RunCucumberTest</includes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>${hamcrest.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+<!--        extend report-->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports-testng-adapter</artifactId>
+            <version>${extentreports-testng-adapter.version}</version>
+        </dependency>
+<!--        Cucumber -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber-testng.version}</version>
+        </dependency>
+<!--        Report cucumber -->
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>${extentreports-cucumber7-adapter.version}</version>
+        </dependency>
+<!--        share state between com.demoqa.steps-->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>${cucumber-picocontainer.version}</version>
+            <scope>test</scope>
+        </dependency>
+<!--        json-->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>${json-simple.version}</version>
+        </dependency>
+<!--        API -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

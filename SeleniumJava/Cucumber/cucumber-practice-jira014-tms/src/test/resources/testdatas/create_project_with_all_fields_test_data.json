@@ -1,0 +1,19 @@
+{
+  "projectName": "Thanh Project Name ",
+  "projectType": "ODC",
+  "projectStatus": "Running",
+  "startDate": "14-Jul-2021",
+  "endDate": "21-Aug-2025",
+  "sizeDay": "123",
+  "location": "Onshore USA Chicago",
+  "projectManager": "Hoang Le (pinky)",
+  "deliveryManager": "Phong Senior (phongSenior)",
+  "engagementManager": "Nguyen Sang (smsang)",
+  "shortDescription": "Short description ABC",
+  "longDescription": "Long description ABC",
+  "technologies": "Technologies ABC",
+  "clientName": "Client name ABC",
+  "clientIndustry": "Retail",
+  "clientDescription": "Client description ABC"
+}
+

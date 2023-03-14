@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-17T17:02:56 ICT" name="suite" finished-at="2022-07-17T17:03:39 ICT" duration-ms="43651">
+    <groups>
+    </groups>
+    <test started-at="2022-07-17T17:02:56 ICT" name="test-suite" finished-at="2022-07-17T17:03:39 ICT" duration-ms="43651">
+      <class name="com.nashtech.tms.tests.CreateProjectTest">
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.CreateProjectTest@74e28667]" started-at="2022-07-17T17:03:20 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:22 ICT" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.CreateProjectTest@74e28667]" started-at="2022-07-17T17:03:22 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:23 ICT" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createProjectWithAllFieldsSuccessfully()[pri:0, instance:com.nashtech.tms.tests.CreateProjectTest@74e28667]" started-at="2022-07-17T17:03:23 ICT" name="createProjectWithAllFieldsSuccessfully" description="Create project with all fields successfully" finished-at="2022-07-17T17:03:31 ICT" duration-ms="7307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectWithAllFieldsSuccessfully -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.CreateProjectTest@74e28667]" started-at="2022-07-17T17:03:31 ICT" name="afterMethod" finished-at="2022-07-17T17:03:31 ICT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.nashtech.tms.tests.CreateProjectTest -->
+      <class name="com.nashtech.tms.tests.SearchProjectTest">
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.SearchProjectTest@1cf6d1be]" started-at="2022-07-17T17:03:31 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:35 ICT" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.SearchProjectTest@1cf6d1be]" started-at="2022-07-17T17:03:35 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:36 ICT" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProjectWithNameLocationTypeSuccessfully()[pri:0, instance:com.nashtech.tms.tests.SearchProjectTest@1cf6d1be]" started-at="2022-07-17T17:03:36 ICT" name="searchProjectWithNameLocationTypeSuccessfully" description="Search project with criteria (Name,Location,Type) successfully" finished-at="2022-07-17T17:03:39 ICT" duration-ms="2798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProjectWithNameLocationTypeSuccessfully -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.SearchProjectTest@1cf6d1be]" started-at="2022-07-17T17:03:39 ICT" name="afterMethod" finished-at="2022-07-17T17:03:39 ICT" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.nashtech.tms.tests.SearchProjectTest -->
+      <class name="com.nashtech.tms.tests.LoginTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:02:56 ICT" name="beforeSuite" finished-at="2022-07-17T17:02:56 ICT" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:02:56 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:01 ICT" duration-ms="5123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:01 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:01 ICT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginSuccessfullyWithValidAccount()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:01 ICT" name="loginSuccessfullyWithValidAccount" description="Login successfully with valid account." finished-at="2022-07-17T17:03:02 ICT" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfullyWithValidAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:02 ICT" name="afterMethod" finished-at="2022-07-17T17:03:03 ICT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:03 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:05 ICT" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:05 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:06 ICT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginUnsuccessfullyWithEmptyPassword()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:06 ICT" name="loginUnsuccessfullyWithEmptyPassword" description="Login unsuccessfully with empty password." finished-at="2022-07-17T17:03:06 ICT" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnsuccessfullyWithEmptyPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:06 ICT" name="afterMethod" finished-at="2022-07-17T17:03:07 ICT" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:07 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:09 ICT" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:09 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:10 ICT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginUnsuccessfullyWithEmptyUsername()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:10 ICT" name="loginUnsuccessfullyWithEmptyUsername" description="Login unsuccessfully with empty username." finished-at="2022-07-17T17:03:10 ICT" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnsuccessfullyWithEmptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:10 ICT" name="afterMethod" finished-at="2022-07-17T17:03:11 ICT" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:11 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:14 ICT" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:14 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:14 ICT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginUnsuccessfullyWithEmptyUsernamePassword()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:14 ICT" name="loginUnsuccessfullyWithEmptyUsernamePassword" description="Login unsuccessfully with empty username &amp; password." finished-at="2022-07-17T17:03:14 ICT" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnsuccessfullyWithEmptyUsernamePassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:14 ICT" name="afterMethod" finished-at="2022-07-17T17:03:15 ICT" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodBaseTest()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:15 ICT" name="beforeMethodBaseTest" finished-at="2022-07-17T17:03:18 ICT" duration-ms="2727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodBaseTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:18 ICT" name="beforeMethod" finished-at="2022-07-17T17:03:18 ICT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginUnsuccessfullyWithInvalidAccount()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:18 ICT" name="loginUnsuccessfullyWithInvalidAccount" description="Login unsuccessfully with invalid account." finished-at="2022-07-17T17:03:19 ICT" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUnsuccessfullyWithInvalidAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nashtech.tms.tests.LoginTest@470734c3]" started-at="2022-07-17T17:03:19 ICT" name="afterMethod" finished-at="2022-07-17T17:03:20 ICT" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.nashtech.tms.tests.LoginTest -->
+    </test> <!-- test-suite -->
+  </suite> <!-- suite -->
+</testng-results>

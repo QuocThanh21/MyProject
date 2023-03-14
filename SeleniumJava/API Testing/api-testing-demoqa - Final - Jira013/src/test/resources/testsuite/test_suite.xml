@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite">
+    <test name="Jira013">
+        <classes>
+            <class name="com.demoqa.tests.AccountTests.GetUserTest" />
+            <class name="com.demoqa.tests.BookStoreTests.AddBookTest" />
+            <class name="com.demoqa.tests.BookStoreTests.DeleteABookTest" />
+            <class name="com.demoqa.tests.BookStoreTests.ReplaceBookTest" />
+        </classes>
+    </test>
+</suite>

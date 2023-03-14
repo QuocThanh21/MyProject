@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login DemoQA Test Suite" >
+    <listeners>
+        <listener class-name="com.hoadoan.seleniumtestng.utils.listeners.TestListener"/>
+        <listener class-name="com.hoadoan.seleniumtestng.utils.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="LoginTest">
+        <classes>
+            <class name="com.hoadoan.seleniumtestng.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
